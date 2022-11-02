@@ -43,7 +43,10 @@ class ViewController: UIViewController {
             currentAnimation = 0
         }
 
-        showNextAnimation()
+        sender.setTitle(
+            "\(springAnimations[currentAnimation].preset)",
+            for:.normal
+        )
     }
     
     private func animateView() {
@@ -65,11 +68,5 @@ class ViewController: UIViewController {
         springDelayLabel.text = "Delay: \(springAnimations[currentAnimation].delay)"
     }
     
-    private func showNextAnimation() {
-        springAnimationButton.setTitle(
-            "\(springAnimations[currentAnimation].preset)",
-            for:.normal
-        )
-    }
 }
 

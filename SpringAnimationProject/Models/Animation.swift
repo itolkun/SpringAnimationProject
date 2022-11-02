@@ -30,7 +30,7 @@ struct Animation {
                 preset: presets[index],
                 curve: curves[index],
                 force: Double(round(100 * Double.random(in: 1...2)) / 100),
-                duration: Double(round(100 * Double.random(in: 0.8...5)) / 100),
+                duration: Double(round(100 * Double.random(in: 0.8...2)) / 100),
                 delay: 0.3
             )
             
