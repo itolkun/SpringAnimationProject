@@ -122,13 +122,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="curveLabel" destination="ia3-0r-WtU" id="v3E-By-yTM"/>
+                        <outlet property="delayLabel" destination="eEq-a6-VDV" id="XhD-bt-T80"/>
+                        <outlet property="durationLabel" destination="Q5x-O0-ASC" id="XH7-0z-ala"/>
+                        <outlet property="forceLabel" destination="oY4-QE-ul1" id="qkh-Cz-fjY"/>
+                        <outlet property="presetLabel" destination="h9a-Tn-GJH" id="fqY-gJ-uPZ"/>
                         <outlet property="springAnimationButton" destination="3VS-rG-ZdZ" id="77h-fG-mzo"/>
                         <outlet property="springAnimationView" destination="eHq-7Y-2c7" id="tBh-ya-zjs"/>
-                        <outlet property="springCurveLabel" destination="ia3-0r-WtU" id="v3E-By-yTM"/>
-                        <outlet property="springDelayLabel" destination="eEq-a6-VDV" id="XhD-bt-T80"/>
-                        <outlet property="springDurationLabel" destination="Q5x-O0-ASC" id="XH7-0z-ala"/>
-                        <outlet property="springForceLabel" destination="oY4-QE-ul1" id="qkh-Cz-fjY"/>
-                        <outlet property="springPresetLabel" destination="h9a-Tn-GJH" id="fqY-gJ-uPZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

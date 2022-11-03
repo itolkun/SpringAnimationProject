@@ -12,13 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet var springAnimationView: SpringView!
     
-    @IBOutlet var springAnimationButton: SpringButton!
+    @IBOutlet var springAnimationButton: UIButton!
     
-    @IBOutlet var springPresetLabel: SpringLabel!
-    @IBOutlet var springCurveLabel: SpringLabel!
-    @IBOutlet var springForceLabel: SpringLabel!
-    @IBOutlet var springDurationLabel: SpringLabel!
-    @IBOutlet var springDelayLabel: SpringLabel!
+    @IBOutlet var presetLabel: UILabel!
+    @IBOutlet var curveLabel: UILabel!
+    @IBOutlet var forceLabel: UILabel!
+    @IBOutlet var durationLabel: UILabel!
+    @IBOutlet var delayLabel: UILabel!
     
     
    var springAnimations: [Animation]! = Animation.getAnimations()
@@ -61,11 +61,11 @@ class ViewController: UIViewController {
     
     
     private func showAnimationLabel() {
-        springPresetLabel.text = "Preset: \(springAnimations[currentAnimation].preset)"
-        springCurveLabel.text = "Curve: \(springAnimations[currentAnimation].curve)"
-        springForceLabel.text = "Force: \(springAnimations[currentAnimation].force)"
-        springDurationLabel.text = "Duration: \(springAnimations[currentAnimation].duration)"
-        springDelayLabel.text = "Delay: \(springAnimations[currentAnimation].delay)"
+        presetLabel.text = "Preset: \(springAnimations[currentAnimation].preset)"
+        curveLabel.text = "Curve: \(springAnimations[currentAnimation].curve)"
+        forceLabel.text = "Force: \(springAnimations[currentAnimation].force)"
+        durationLabel.text = "Duration: \(springAnimations[currentAnimation].duration)"
+        delayLabel.text = "Delay: \(springAnimations[currentAnimation].delay)"
     }
     
 }
