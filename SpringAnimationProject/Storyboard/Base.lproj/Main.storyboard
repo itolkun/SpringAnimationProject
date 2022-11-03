@@ -105,6 +105,11 @@
                                 <state key="normal" title="Run">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="startSpringAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OVE-zf-M5d"/>
                                 </connections>
@@ -127,7 +132,6 @@
                         <outlet property="durationLabel" destination="Q5x-O0-ASC" id="XH7-0z-ala"/>
                         <outlet property="forceLabel" destination="oY4-QE-ul1" id="qkh-Cz-fjY"/>
                         <outlet property="presetLabel" destination="h9a-Tn-GJH" id="fqY-gJ-uPZ"/>
-                        <outlet property="springAnimationButton" destination="3VS-rG-ZdZ" id="77h-fG-mzo"/>
                         <outlet property="springAnimationView" destination="eHq-7Y-2c7" id="tBh-ya-zjs"/>
                     </connections>
                 </viewController>

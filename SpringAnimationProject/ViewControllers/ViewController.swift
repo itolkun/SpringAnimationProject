@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet var springAnimationView: SpringView!
     
-    @IBOutlet var springAnimationButton: UIButton!
-    
     @IBOutlet var presetLabel: UILabel!
     @IBOutlet var curveLabel: UILabel!
     @IBOutlet var forceLabel: UILabel!
@@ -28,7 +26,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         springAnimationView.layer.cornerRadius = 15
-        springAnimationButton.layer.cornerRadius = 15
     
         showAnimationLabel()
     }
